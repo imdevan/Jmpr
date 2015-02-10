@@ -1,3 +1,5 @@
+![Alt text](/stairway to heaven sc.jpg?raw=true "Optional Title")
+
 # stairway-to-heaven
 --------
 Virtual reality game for the Google Cardboard and Android platform. Built using Unity.
