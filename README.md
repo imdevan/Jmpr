@@ -1,4 +1,4 @@
-![Alt text](/stairway to heaven sc.jpg?raw=true "Optional Title")
+![Alt text](/stairway to heaven sc.png?raw=true)
 
 # stairway-to-heaven
 --------
