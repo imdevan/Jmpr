@@ -10,8 +10,7 @@ Project was originally created as a submission for Hack at Brown.
 * Please read all sections of this guide.  
 * Questions: [@devanipsum] (http://twitter.com/devanIpsum)
 
-* A very special thank you to Jason Walters for helping me get started!
-* [@jasonrwalters](http://twitter.com/jasonrwalters)
+* A very special thank you to Jason Walters ( [@jasonrwalters](http://twitter.com/jasonrwalters))  for helping me get started and giving me direction!
 
 
 Scenes
