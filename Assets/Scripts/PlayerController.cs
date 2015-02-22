@@ -61,9 +61,13 @@ public class PlayerController : MonoBehaviour
 			// Jump or Walk
 			// Start jump counter on "space" or cardboard trigger
 			//if (Input.GetKeyDown ("space") || Cardboard.SDK.CardboardTriggered) { 
-//			if(Input.GetKeyDown("space")){
+			//if(Input.GetKeyDown("space")){
+
+			#if UNITY_EDITOR
 			if(Input.GetMouseButtonDown(0)){
-			//if(Cardboard.SDK.CardboardTriggered){
+			#else
+			if(Cardboard.SDK.CardboardTriggered){
+			#endif
 				if(inputTimer == 0f)
 					startInputTimer();
 			} 
@@ -72,8 +76,13 @@ public class PlayerController : MonoBehaviour
 			// walk
 			//if(Input.GetKey ("space") || Cardboard.SDK.CardboardTriggered){	
 			//			if(Input.GetKey("space")){	
+				
+			#if UNITY_EDITOR
 			if(Input.GetMouseButton(0)){
-			//if(Cardboard.SDK.CardboardTriggered){
+			#else
+			if(Cardboard.SDK.CardboardTriggered){
+			#endif
+
 				inputTimer += Time.deltaTime;
 				if(inputTimer > 0.25f) 
 					setPlayerState("walk");
@@ -82,9 +91,12 @@ public class PlayerController : MonoBehaviour
 			// If the player holds space or the cardboard trigger for less than 0.5 seconds
 			// jump
 			//if(Input.GetKeyUp("space") || !Cardboard.SDK.CardboardTriggered){
-			//			if(Input.GetKeyUp("space")){
-			if(Input.GetMouseButtonUp(0)){
-			// if(!Cardboard.SDK.CardboardTriggered){
+					//			if(Input.GetKeyUp("space")){
+			#if UNITY_EDITOR
+			if(Input.GetMouseButton(0)){
+			#else
+			if(!Cardboard.SDK.CardboardTriggered){
+			#endif
 				if(inputTimer > 0.01f && inputTimer < 0.25f && cbWasPreviouslyTriggered)
 					setPlayerState("jump");
 			}
