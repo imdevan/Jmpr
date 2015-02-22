@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{D73CEBE0-14E7-AF86-A225-6BF86C1C8AFD}</ProjectGuid>
+	<ProjectGuid>{802849B5-A098-C96F-0698-0A8A9742BD97}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -56,21 +56,29 @@
      <Compile Include="Assets\Cardboard\Scripts\SkyboxMesh.cs" />
      <Compile Include="Assets\Cardboard\Scripts\StereoController.cs" />
      <Compile Include="Assets\Cardboard\Scripts\StereoLensFlare.cs" />
-     <Compile Include="Assets\Scripts\BonusItem.cs" />
-     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\CharacterHolder.cs" />
+     <Compile Include="Assets\ForwardBackPlatform.cs" />
+     <Compile Include="Assets\GoToLvl1.cs" />
+     <Compile Include="Assets\GoToLvl2.cs" />
+     <Compile Include="Assets\GoToLvl3.cs" />
+     <Compile Include="Assets\GoToLvl4.cs" />
+     <Compile Include="Assets\HoverY.cs" />
+     <Compile Include="Assets\LeftRightPlatform.cs" />
+     <Compile Include="Assets\LeftRightPlatformHolder.cs" />
      <Compile Include="Assets\Scripts\Danger.cs" />
      <Compile Include="Assets\Scripts\Explosion.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\ScoreTextController.cs" />
      <Compile Include="Assets\Scripts\SpawnObjects.cs" />
-     <Compile Include="Assets\airfollow.cs" />
+     <Compile Include="Assets\UpDownHolder.cs" />
+     <Compile Include="Assets\UpDownPlatform.cs" />
      <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Cardboard\Resources\GUIScreen.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/Devan/Downloads/UnityYGM-master/UnityYGM-master/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Devan/Documents/All Things Code/Unity/Jmpr/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
@@ -78,7 +86,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{B98A9648-BEE7-2BEB-1D98-DB3AC34350C6}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{D49FB78A-5895-016A-D032-39DF53D5582B}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
