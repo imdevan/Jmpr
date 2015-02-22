@@ -1,10 +1,10 @@
 ![Alt text](/stairway to heaven sc.png?raw=true)
 
-# stairway-to-heaven
+# Jmpr
 --------
 Virtual reality game for the Google Cardboard and Android platform. Built using Unity.
 
-Project was originally created as a submission for Hack at Brown.
+Project was originally created as a submission for Hack at Brown and titled "Stairway To Heaven."
 
 
 * Please read all sections of this guide.  
@@ -21,7 +21,7 @@ Running On Android
 --------
 * If you want to run on an Android device (it's awesome)
 * Install one of the two .apk files in the root folder
-* "Stairway To Heaven.apk" does not require the "Google Cardboard" or compatible device for interaction
+* "Jmpr.apk" does not require the "Google Cardboard" or compatible device for interaction
 
 
 Controls
