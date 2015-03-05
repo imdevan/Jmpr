@@ -1,4 +1,4 @@
-![Alt text](/stairway to heaven sc.png?raw=true)
+![Alt text](/Jmpr sc hd.png?raw=true)
 
 # Jmpr
 --------
