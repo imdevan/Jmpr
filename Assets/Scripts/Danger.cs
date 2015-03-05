@@ -43,14 +43,14 @@ public class Danger : MonoBehaviour
         GameController.gameScore += destroyScore;
 
         // play destruction sound
-        audio.Play();
+        GetComponent<AudioSource>().Play();
 
         // spawn explosion effect
         Instantiate(explosion, transform.position, transform.rotation);
 
         // disable render and collider
-        renderer.enabled = false;
-        collider.enabled = false;
+        GetComponent<Renderer>().enabled = false;
+        GetComponent<Collider>().enabled = false;
     }
 
     void OnTriggerEnter(Collider col)

@@ -116,18 +116,18 @@ public class PlayerController : MonoBehaviour
 
 		// Move the player in the air if they are jumping
 		if(jumping || walking) {
-			moveDirection.x = head.Gaze.direction.x * playerHorizontalSpeed;
-			moveDirection.z = head.Gaze.direction.z * playerHorizontalSpeed;	
+						moveDirection.x = head.Gaze.direction.x * speed * playerHorizontalSpeed;
+						moveDirection.z = head.Gaze.direction.z * speed * playerHorizontalSpeed;	
 			inputTimer += Time.deltaTime;
 		}
 
 		// Apply gravity 
-		vSpeed -= gravity * Time.deltaTime; 
+					vSpeed -= gravity * Time.deltaTime* speed ; 
 		moveDirection.y = vSpeed; 
 		
 		// include vertical speed 
 		// Move the controller 
-		controller.Move(moveDirection * speed * Time.deltaTime); 
+		controller.Move(moveDirection * Time.deltaTime); 
 
 		if(transform.position.y < -100)
 			Application.LoadLevel (Application.loadedLevelName);

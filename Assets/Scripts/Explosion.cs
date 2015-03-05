@@ -27,6 +27,6 @@ public class Explosion : MonoBehaviour
 	void FixedUpdate ()
     {
         // add forward force to the Explosion
-        rigidbody.velocity = transform.forward * -(speedDiff + GameController.gameSpeed);
+        GetComponent<Rigidbody>().velocity = transform.forward * -(speedDiff + GameController.gameSpeed);
 	}
 }

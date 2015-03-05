@@ -228,14 +228,14 @@ public class GameController : MonoBehaviour
     void AudioController(AudioClip clipName)
     {
         // update our audio volume
-        audio.volume = audioVolume;
+        GetComponent<AudioSource>().volume = audioVolume;
 
         // if audio is active...
         if (audioEnabled == 1)
         {
             // play specified clip
-            audio.clip = clipName;
-            audio.Play();
+            GetComponent<AudioSource>().clip = clipName;
+            GetComponent<AudioSource>().Play();
         }
     }
 
