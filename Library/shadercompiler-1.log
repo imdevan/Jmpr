@@ -1,7 +1,184 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-1-7276
+Pipe name: \\.\pipe\UnityShaderCompiler-1-11196
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=8333 outsize=2052 ok=1
+Cmd: preprocess
+  insize=10964 outsize=663 ok=1
+Cmd: preprocess
+  insize=1248 outsize=340 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (23): unrecognized identifier 'UNITY_FOG_COORDS'
+  api=4 type=0 insize=1210 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=435 outsize=435 ok=1
+Cmd: preprocess
+  insize=1615 outsize=2246 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (0): Vertex program 'tessvert_surf': unknown input semantics TEXCOORD/2
+
+  api=4 type=0 insize=8367 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=1063 outsize=408 ok=1
+Cmd: preprocess
+  insize=9575 outsize=799 ok=1
+Cmd: preprocess
+  insize=1624 outsize=334 ok=1
+Cmd: preprocess
+  insize=844 outsize=330 ok=1
+Cmd: preprocess
+  insize=928 outsize=289 ok=1
+Cmd: preprocess
+  insize=1923 outsize=467 ok=1
+Cmd: preprocess
+  insize=1217 outsize=387 ok=1
+Cmd: preprocess
+  insize=3521 outsize=640 ok=1
+Cmd: preprocess
+  insize=1454 outsize=2191 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (0): Vertex program 'tessvert_surf': unknown input semantics TEXCOORD/2
+
+  api=4 type=0 insize=8535 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=1164 outsize=384 ok=1
+Cmd: preprocess
+  insize=6511 outsize=780 ok=1
+Cmd: preprocess
+  insize=1097 outsize=289 ok=1
+Cmd: preprocess
+  insize=1044 outsize=883 ok=1
+Cmd: preprocess
+  insize=2413 outsize=753 ok=1
+Cmd: preprocess
+  insize=883 outsize=277 ok=1
+Cmd: preprocess
+  insize=1314 outsize=362 ok=1
+Cmd: preprocess
+  insize=1353 outsize=325 ok=1
+Cmd: preprocess
+  insize=1188 outsize=255 ok=1
+Cmd: preprocess
+  insize=2379 outsize=1092 ok=1
+Cmd: preprocess
+  insize=1344 outsize=330 ok=1
+Cmd: preprocess
+  insize=1193 outsize=304 ok=1
+Cmd: preprocess
+  insize=2235 outsize=619 ok=1
+Cmd: preprocess
+  insize=902 outsize=252 ok=1
+Cmd: preprocess
+  insize=636 outsize=302 ok=1
+Cmd: preprocess
+  insize=6131 outsize=976 ok=1
+Cmd: preprocess
+  insize=2237 outsize=975 ok=1
+Cmd: preprocess
+  insize=32573 outsize=255 ok=1
+Cmd: preprocess
+  insize=1154 outsize=242 ok=1
+Cmd: preprocess
+  insize=4293 outsize=504 ok=1
+Cmd: preprocess
+  insize=992 outsize=248 ok=1
+Cmd: preprocess
+  insize=4770 outsize=1781 ok=1
+Cmd: preprocess
+  insize=12787 outsize=1866 ok=1
+Cmd: preprocess
+  insize=963 outsize=332 ok=1
+Cmd: preprocess
+  insize=6023 outsize=732 ok=1
+Cmd: preprocess
+  insize=2677 outsize=763 ok=1
+Cmd: preprocess
+  insize=10773 outsize=2535 ok=1
+Cmd: preprocess
+  insize=2486 outsize=1156 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (49): unrecognized identifier 'UNITY_FOG_COORDS'
+  api=4 type=0 insize=1632 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=12423 outsize=2320 ok=1
+Cmd: preprocess
+  insize=1909 outsize=438 ok=1
+Cmd: preprocess
+  insize=1357 outsize=642 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (20): unrecognized identifier 'UNITY_FOG_COORDS'
+  api=4 type=0 insize=1021 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1530 outsize=277 ok=1
+Cmd: preprocess
+  insize=23968 outsize=4136 ok=1
+Cmd: preprocess
+  insize=3938 outsize=532 ok=1
+Cmd: preprocess
+  insize=1675 outsize=280 ok=1
+Cmd: preprocess
+  insize=965 outsize=333 ok=1
+Cmd: preprocess
+  insize=1082 outsize=407 ok=1
+Cmd: preprocess
+  insize=673 outsize=248 ok=1
+Cmd: preprocess
+  insize=5564 outsize=854 ok=1
 Cmd: preprocess
   insize=948 outsize=945 ok=1
 Cmd: preprocess
+  insize=5171 outsize=735 ok=1
+Cmd: preprocess
+  insize=520 outsize=341 ok=1
+Cmd: preprocess
+  insize=6414 outsize=905 ok=1
+Cmd: preprocess
+  insize=1306 outsize=373 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (25): unrecognized identifier 'UNITY_FOG_COORDS'
+  api=4 type=0 insize=1235 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=32583 outsize=255 ok=1
+Cmd: preprocess
   insize=1334 outsize=1331 ok=1
+Cmd: preprocess
+  insize=5175 outsize=1721 ok=1
+Cmd: preprocess
+  insize=2274 outsize=1036 ok=1
+Cmd: preprocess
+  insize=6737 outsize=236 ok=1
+Cmd: preprocess
+  insize=4268 outsize=418 ok=1
+Cmd: preprocess
+  insize=4608 outsize=888 ok=1
+Cmd: preprocess
+  insize=1310 outsize=384 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (37): unrecognized identifier 'UNITY_FOG_COORDS'
+  api=4 type=0 insize=1228 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=5717 outsize=1218 ok=1
+Cmd: preprocess
+  insize=716 outsize=286 ok=1
+Cmd: preprocess
+  insize=656 outsize=299 ok=1
+Cmd: preprocess
+  insize=3696 outsize=631 ok=1
+Cmd: preprocess
+  insize=799 outsize=276 ok=1
+Cmd: preprocess
+  insize=1265 outsize=270 ok=1
+Cmd: preprocess
+  insize=2015 outsize=947 ok=1
+Cmd: preprocess
+  insize=5095 outsize=701 ok=1
+Cmd: preprocess
+  insize=1017 outsize=470 ok=1
+Cmd: preprocess
+  insize=1139 outsize=364 ok=1
+Cmd: preprocess
+  insize=512 outsize=241 ok=1
+Cmd: preprocess
+  insize=650 outsize=290 ok=1
+Cmd: preprocess
+  insize=5006 outsize=866 ok=1
